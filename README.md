@@ -23,6 +23,24 @@ andmebaasidega seotud SQL ja konspektid
 ## SQL - structure Query Language - struktureeritud päringu keel
 - Tabeli loomine
   ```
+  CREATE DATABASE TITpv24baas;
+
+--ab kustutamine
+Drop DATABASE Logitpv24Baas;
+
+use TITPV24baas;
+--tabeli loomine
+Create table opilane(
+opilaneID int Primary Key identity(1,1), --automaatselt täidab numbritega
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) );--(2--kokku, 1- peale komat nt 4.5)
+
+SELECT * FROM opilane;
   ```
 - Andmete sisestamine tabelisse
   ```
