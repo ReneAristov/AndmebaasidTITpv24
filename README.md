@@ -80,4 +80,3 @@ INSERT INTO opitamine
 VALUES ('2026-04-16', 'andmebaasid', 1, 5)
 ```
 
-
