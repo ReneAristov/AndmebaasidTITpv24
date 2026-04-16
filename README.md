@@ -49,3 +49,35 @@ VALUES ('Holovanov', 'Ivan', 4.2),
 ('Sereda', 'Ivan', 4.2),
 ('Suvorov', 'Marko', 4.2);
 ```
+# Seosed (tabelivahelised seosed)
+- üks-ühele (nt mees-naine)
+- üks-mitmele (nt ema-lapsed)
+<img width="223" height="489" alt="{B9182944-284F-46E8-8C16-39DECC36AF26}" src="https://github.com/user-attachments/assets/cff14ab8-b20e-4f18-90e6-90e2318251de" />
+
+- mitu-mitmele (nt õpilased - õpetajad)
+
+## Piirangud
+- constraint - ограничения
+1. PRIMARY KEY
+2. FOREIGN KEY
+3. CHECK
+4. NOT NULL
+5. UNIQUE
+
+```sql
+CREATE TABLE opitamine(
+opetamineID int PRIMARY KEY identity(1,1),
+kuupaev DATE,
+oppeaine varchar(30),
+opilaneID int,
+FOREIGN KEY (opilaneID) REFERENCES opilane(opilaneID),
+hinne int CHECK(hinne<=5));
+
+SELECT * FROM opitamine;
+SELECT * FROM opilane;
+
+INSERT INTO opitamine
+VALUES ('2026-04-16', 'andmebaasid', 1, 5)
+```
+
+
