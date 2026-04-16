@@ -29,6 +29,12 @@ andmebaasidega seotud SQL ja konspektid
 Drop DATABASE Logitpv24Baas;
 
 use TITPV24baas;
+CREATE DATABASE TITpv24baas;
+
+--ab kustutamine
+Drop DATABASE Logitpv24Baas;
+
+use TITPV24baas;
 --tabeli loomine
 Create table opilane(
 opilaneID int Primary Key identity(1,1), --automaatselt täidab numbritega
