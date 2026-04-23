@@ -4,7 +4,7 @@ andmebaasidega seotud SQL ja konspektid
 - [Põhimõisted](#põhimõisted)
 - [Andmetüübid](#andmetüübid)
 - [SQL - structure Query Language - struktureeritud päringu keel](#SQL-structure-Query-Language-struktureeritud-päringu-keel)
-- [Seosed (tabelivahelised seosed)](#Seosed-(tabelivahelised-seosed))
+- [Seosed tabelivahelised seosed](#Seosed-tabelivahelised-seosed)
 
 
 # Põhimõisted
@@ -56,7 +56,7 @@ VALUES ('Holovanov', 'Ivan', 4.2),
 ('Sereda', 'Ivan', 4.2),
 ('Suvorov', 'Marko', 4.2);
 ```
-# Seosed (tabelivahelised seosed)
+# Seosed tabelivahelised seosed
 - üks-ühele (nt mees-naine)
 - üks-mitmele (nt ema-lapsed)
 <img width="223" height="489" alt="{B9182944-284F-46E8-8C16-39DECC36AF26}" src="https://github.com/user-attachments/assets/cff14ab8-b20e-4f18-90e6-90e2318251de" />
