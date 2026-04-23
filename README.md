@@ -80,3 +80,20 @@ INSERT INTO opitamine
 VALUES ('2026-04-16', 'andmebaasid', 1, 5)
 ```
 
+## ALTER TABLE
+-tabeli struktuuri muutmine (struktuur: veerudeandmed,andmetüübid, piirangud)
+1. uue veeru lisamine
+
+```sql
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+
+--veeru kustutamine
+ALTER TABLE opilane DROP COLUMN isikukood;
+
+--andmetüübi muutmine varchar(11)-->char(11)
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+--SISSEEHITATUD PROTSEDUUR, MIS NÄITAB TABELI STRUKTUUR
+sp_help opilane;
+
+```
