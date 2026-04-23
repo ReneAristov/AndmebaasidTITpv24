@@ -92,6 +92,7 @@ ALTER TABLE opilane DROP COLUMN isikukood;
 
 --andmetüübi muutmine varchar(11)-->char(11)
 ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+
 --SISSEEHITATUD PROTSEDUUR, MIS NÄITAB TABELI STRUKTUUR
 sp_help opilane;
 
