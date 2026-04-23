@@ -5,6 +5,7 @@ andmebaasidega seotud SQL ja konspektid
 - [Andmetüübid](#andmetüübid)
 - [SQL - structure Query Language - struktureeritud päringu keel](#SQL-structure-Query-Language-struktureeritud-päringu-keel)
 - [Seosed tabelivahelised seosed](#Seosed-tabelivahelised-seosed)
+- [Piirangud](#Piirangud)
 
 
 # Põhimõisted
