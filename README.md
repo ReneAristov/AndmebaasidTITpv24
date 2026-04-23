@@ -3,7 +3,7 @@ andmebaasidega seotud SQL ja konspektid
 ## Sisukord
 - [Põhimõisted](#põhimõisted)
 - [Andmetüübid](#andmetüübid)
-- [SQL - structure Query Language -struktureeritud päringu keel](#SQL-structure-Query-Language-struktureeritud-päringu-keel)
+- [SQL - structure Query Language - struktureeritud päringu keel](#SQL-structure-Query-Language-struktureeritud-päringu-keel)
 - [Seosed tabelivahelised seosed](#Seosed-tabelivahelised-seosed)
 - [Piirangud](#Piirangud)
 - [ALTER TABLE](#ALTER-TABLE)
@@ -29,7 +29,7 @@ andmebaasidega seotud SQL ja konspektid
 4. Kuupäeva: date, time, tatetime
 ```
 
-## SQL - structure Query Language -struktureeritud päringu keel
+## SQL-structure Query Language-struktureeritud päringu keel
 - Tabeli loomine
 ```
 CREATE DATABASE TITpv24baas;
