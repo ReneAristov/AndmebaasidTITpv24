@@ -102,3 +102,8 @@ INSERT INTO hosted_at
 VALUES (3,2);
 ```
 <img width="219" height="76" alt="{0B5FC6DB-AD3A-4364-AE4D-19A8CC4D1C1D}" src="https://github.com/user-attachments/assets/53c0e0d9-5ead-471f-8227-f396adb30174" />
+
+## Diagramm
+<img width="717" height="823" alt="{05ABD06F-ABC1-4308-A1F2-FA4DA1D951BC}" src="https://github.com/user-attachments/assets/471b3bed-8faa-4033-9367-86f4ad22b986" />
+
+
